@@ -16,8 +16,12 @@ const CardList = () => {
     <>
       <Title main>List of articles</Title>
       <Wrapper>
-        {data.articles.map(article => (
-          <Card title={article.title} description={article.description} />
+        {data.articles.map((article) => (
+          <Card
+            title={article.title}
+            description={article.description}
+            url={article.image}
+          />
         ))}
       </Wrapper>
     </>
