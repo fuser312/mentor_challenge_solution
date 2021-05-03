@@ -1,12 +1,11 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
 
-const Title = styled.h1`
-  font-size: 2rem;
-  font-weight: 300;
-  margin: 1rem;
-  color: ${props => (props.main ? "black" : "white")};
-  text-align: center;
-`;
+const Title = () => {
+    return (
+        <div>
+            
+        </div>
+    )
+}
 
-export default Title;
+export default Title
